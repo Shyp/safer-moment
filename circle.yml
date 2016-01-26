@@ -1,0 +1,11 @@
+machine:
+  node:
+    version: 0.10.30
+
+dependencies:
+  override:
+    - make test-install
+
+test:
+  override:
+    - make test
